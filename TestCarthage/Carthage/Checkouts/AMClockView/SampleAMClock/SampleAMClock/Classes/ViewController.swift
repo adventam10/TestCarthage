@@ -30,10 +30,16 @@ class ViewController: UIViewController {
         cView4.delegate = self
         cView5.delegate = self
         cView6.delegate = self
-
-        dateFormatter.locale = Locale(identifier: "ja_JP")
+        cView1.timeZone = TimeZone(identifier: "America/Toronto")
+        cView2.timeZone = TimeZone(identifier: "Europe/Moscow")
+        cView3.timeZone = TimeZone(identifier: "Asia/Tokyo")
+        cView4.timeZone = TimeZone(identifier: "GMT")
+        cView5.timeZone = TimeZone(identifier: "Africa/Cairo")
+        cView6.timeZone = TimeZone(identifier: "Australia/Sydney")
+        
+        dateFormatter.timeZone = TimeZone(identifier: "Asia/Tokyo")
         dateFormatter.dateFormat = "yyyy/MM/dd HH:mm"
-        cView6.selectedDate = dateFormatter.date(from: "2018/01/01 10:10")
+        cView3.selectedDate = dateFormatter.date(from: "2018/01/01 10:10")
     }
 
     override func didReceiveMemoryWarning() {
@@ -44,6 +50,9 @@ class ViewController: UIViewController {
 
 extension ViewController: AMClockViewDelegate {
     func clockView(_ clockView: AMClockView, didChangeDate date: Date) {
-        timeLabel.text = dateFormatter.string(from: date);
+        if let timeZone = clockView.timeZone {
+             dateFormatter.timeZone = timeZone
+        }
+        timeLabel.text = "selected time: " + dateFormatter.string(from: date);
     }
 }

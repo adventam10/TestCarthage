@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QEH-9Q-QSX">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QEH-9Q-QSX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -107,7 +105,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zie-DG-S1A" secondAttribute="trailing" constant="15" id="eOa-iZ-SYu"/>
                             <constraint firstItem="Zie-DG-S1A" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fE1-9S-33A"/>
@@ -150,7 +148,7 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ab0-ac-Z55" customClass="AMNowClockView" customModule="AMNowClockView">
                                         <rect key="frame" x="0.0" y="0.0" width="240" height="240"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="240" id="An3-Kn-Awd"/>
                                             <constraint firstAttribute="width" secondItem="Ab0-ac-Z55" secondAttribute="height" multiplier="1:1" id="P2G-bT-WZg"/>
@@ -158,7 +156,7 @@
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9mc-5w-Xcs" customClass="AMNowClockView" customModule="AMNowClockView">
                                         <rect key="frame" x="0.0" y="255" width="240" height="240"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="9mc-5w-Xcs" secondAttribute="height" multiplier="1:1" id="2aQ-LS-4dG"/>
                                             <constraint firstAttribute="width" constant="240" id="gLN-D5-nsl"/>
@@ -167,7 +165,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="SdC-W2-riy" firstAttribute="centerY" secondItem="PTr-q6-QXq" secondAttribute="centerY" id="Ycu-Z1-gFI"/>
                             <constraint firstItem="SdC-W2-riy" firstAttribute="centerX" secondItem="PTr-q6-QXq" secondAttribute="centerX" id="q99-2I-G7e"/>
@@ -213,7 +211,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="bgf-X5-jUu" firstAttribute="top" secondItem="Bby-O3-9wF" secondAttribute="bottom" constant="30" id="9IR-Oy-Lcq"/>
                             <constraint firstItem="Bby-O3-9wF" firstAttribute="top" secondItem="4qM-uy-LbG" secondAttribute="top" constant="15" id="DP7-z1-P4N"/>
@@ -240,14 +238,14 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cZE-GJ-xmE" customClass="AMSpeedMeterView" customModule="AMSpeedMeterView">
                                 <rect key="frame" x="87" y="328" width="240" height="240"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="DLl-g1-KES"/>
                                     <constraint firstAttribute="width" secondItem="cZE-GJ-xmE" secondAttribute="height" multiplier="1:1" id="I5H-ve-lcE"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="cZE-GJ-xmE" firstAttribute="centerY" secondItem="tYe-LM-4E8" secondAttribute="centerY" id="Wza-nN-bBe"/>
                             <constraint firstItem="cZE-GJ-xmE" firstAttribute="centerX" secondItem="tYe-LM-4E8" secondAttribute="centerX" id="Xk6-83-t6D"/>
@@ -285,7 +283,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="7go-uE-owc" firstAttribute="centerX" secondItem="pge-Ut-ojD" secondAttribute="centerX" id="68G-sM-wkr"/>
                             <constraint firstItem="7go-uE-owc" firstAttribute="top" secondItem="IXQ-Xe-zb3" secondAttribute="bottom" constant="15" id="91t-ou-t0c"/>
@@ -313,10 +311,10 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gve-KZ-6G9" customClass="AMVennDiagramView" customModule="AMVennDiagramView">
                                 <rect key="frame" x="15" y="103" width="384" height="744"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="gve-KZ-6G9" firstAttribute="top" secondItem="VGG-We-dQr" secondAttribute="top" constant="15" id="FdU-0d-Lhl"/>
                             <constraint firstItem="VGG-We-dQr" firstAttribute="bottom" secondItem="gve-KZ-6G9" secondAttribute="bottom" constant="15" id="Kn4-XE-Yck"/>
@@ -343,26 +341,26 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UMq-xo-qvg" customClass="AMLineChartView" customModule="AMChart">
                                 <rect key="frame" x="0.0" y="88" width="165.5" height="269"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="00b-vb-Sen" customClass="AMScatterChartView" customModule="AMChart">
                                 <rect key="frame" x="248.5" y="88" width="165.5" height="269"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DWk-P1-g7i" customClass="AMRadarChartView" customModule="AMChart">
                                 <rect key="frame" x="124" y="365" width="166" height="166"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="DWk-P1-g7i" secondAttribute="height" multiplier="1:1" id="8A4-f5-aSV"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8mJ-pY-3IL" customClass="AMPieChartView" customModule="AMChart">
                                 <rect key="frame" x="0.0" y="593" width="165.5" height="269"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="93z-bp-ktg" customClass="AMBarChartView" customModule="AMChart">
                                 <rect key="frame" x="248.5" y="593" width="165.5" height="269"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0uj-7m-rlv">
                                 <rect key="frame" x="0.0" y="365" width="124" height="166"/>
@@ -392,7 +390,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstItem="pNd-zs-Bjv" firstAttribute="top" secondItem="zt8-iB-jBX" secondAttribute="bottom" constant="10" id="7on-jY-1gx"/>
                                     <constraint firstItem="zt8-iB-jBX" firstAttribute="centerY" secondItem="0uj-7m-rlv" secondAttribute="centerY" id="8sN-tf-6BG"/>
@@ -406,7 +404,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="z5u-LS-YQI" firstAttribute="bottom" secondItem="93z-bp-ktg" secondAttribute="bottom" id="5JK-3T-5y9"/>
                             <constraint firstItem="z5u-LS-YQI" firstAttribute="bottom" secondItem="8mJ-pY-3IL" secondAttribute="bottom" id="5nX-KF-6zp"/>
@@ -474,7 +472,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="RPl-MQ-dIn" firstAttribute="top" secondItem="Up6-OM-pGY" secondAttribute="top" id="4Zv-77-HhQ"/>
                             <constraint firstItem="Up6-OM-pGY" firstAttribute="bottom" secondItem="RPl-MQ-dIn" secondAttribute="bottom" id="SlE-0F-hzQ"/>
@@ -501,7 +499,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="csv-vn-Ens" customClass="AMMeterView" customModule="AMMeterView">
                                 <rect key="frame" x="87" y="328" width="240" height="240"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="uaP-CD-Wml"/>
                                 </constraints>
@@ -513,7 +511,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="csv-vn-Ens" firstAttribute="centerX" secondItem="tPf-79-qRs" secondAttribute="centerX" id="2kT-zm-eNl"/>
                             <constraint firstItem="1ug-1Q-mJs" firstAttribute="centerX" secondItem="tPf-79-qRs" secondAttribute="centerX" id="FCI-fW-fPn"/>
@@ -542,7 +540,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aYm-IS-pOg" customClass="AMClockView" customModule="AMClockView">
                                 <rect key="frame" x="87" y="328" width="240" height="240"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="9Ey-nL-ztX"/>
                                     <constraint firstAttribute="width" secondItem="aYm-IS-pOg" secondAttribute="height" multiplier="1:1" id="FbF-Nm-WLJ"/>
@@ -555,7 +553,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="aYm-IS-pOg" firstAttribute="centerX" secondItem="3hb-4M-4Zg" secondAttribute="centerX" id="B2g-VH-JMa"/>
                             <constraint firstItem="aYm-IS-pOg" firstAttribute="centerY" secondItem="3hb-4M-4Zg" secondAttribute="centerY" id="GP8-LR-RnH"/>
@@ -583,14 +581,14 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lKe-yH-2Kv" customClass="AMJpnMapView" customModule="AMJpnMap">
                                 <rect key="frame" x="57" y="298" width="300" height="300"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="lKe-yH-2Kv" secondAttribute="height" multiplier="1:1" id="GFs-Xc-QqP"/>
                                     <constraint firstAttribute="width" constant="300" id="cVx-2t-LAC"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="lKe-yH-2Kv" firstAttribute="centerY" secondItem="Rdq-Im-qJO" secondAttribute="centerY" id="89A-E5-M8n"/>
                             <constraint firstItem="lKe-yH-2Kv" firstAttribute="centerX" secondItem="Rdq-Im-qJO" secondAttribute="centerX" id="oqs-Uz-RKa"/>

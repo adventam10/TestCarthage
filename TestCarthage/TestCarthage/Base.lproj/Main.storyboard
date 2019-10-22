@@ -65,38 +65,45 @@
                                         <rect key="frame" x="199.5" y="0.0" width="184.5" height="260"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cjo-Rp-eaa">
-                                                <rect key="frame" x="0.0" y="0.0" width="184.5" height="40"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="184.5" height="31"/>
                                                 <state key="normal" title="AMBurn"/>
                                                 <connections>
                                                     <segue destination="CVL-g5-EG2" kind="show" id="buM-7x-xjr"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8rn-R2-7HV">
-                                                <rect key="frame" x="0.0" y="55" width="184.5" height="40"/>
+                                                <rect key="frame" x="0.0" y="46" width="184.5" height="30.5"/>
                                                 <state key="normal" title="AMVenn"/>
                                                 <connections>
                                                     <segue destination="dcS-qs-b36" kind="show" id="WeI-jK-aSv"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GlF-zA-GZk">
-                                                <rect key="frame" x="0.0" y="110" width="184.5" height="40"/>
+                                                <rect key="frame" x="0.0" y="91.5" width="184.5" height="31"/>
                                                 <state key="normal" title="AMChart"/>
                                                 <connections>
                                                     <segue destination="TOR-5U-mmX" kind="show" id="WrX-Gl-Bdt"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZW-v4-mss">
-                                                <rect key="frame" x="0.0" y="165" width="184.5" height="40"/>
+                                                <rect key="frame" x="0.0" y="137.5" width="184.5" height="31"/>
                                                 <state key="normal" title="AMColorPicker"/>
                                                 <connections>
                                                     <segue destination="4hk-3j-ZFz" kind="show" id="eAz-71-S1U"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Er3-9H-euv">
-                                                <rect key="frame" x="0.0" y="220" width="184.5" height="40"/>
+                                                <rect key="frame" x="0.0" y="183.5" width="184.5" height="30.5"/>
                                                 <state key="normal" title="AMMap"/>
                                                 <connections>
                                                     <segue destination="0zS-Xv-teW" kind="show" id="TKJ-j6-aMq"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q9Q-VQ-IuS">
+                                                <rect key="frame" x="0.0" y="229" width="184.5" height="31"/>
+                                                <state key="normal" title="AMOuijaBoard"/>
+                                                <connections>
+                                                    <segue destination="9I7-EN-fEP" kind="show" id="khm-tC-H4y"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -374,6 +381,59 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nTF-kq-1Bd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1517" y="814"/>
+        </scene>
+        <!--AMOuijaBoard-->
+        <scene sceneID="K9V-m2-ldI">
+            <objects>
+                <viewController title="AMOuijaBoard" id="9I7-EN-fEP" customClass="OuijaBoardViewController" customModule="TestCarthage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hnS-UW-HW4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="YSg-v9-UFd">
+                                <rect key="frame" x="8" y="289" width="398" height="318"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X5c-u3-w52">
+                                        <rect key="frame" x="0.0" y="0.0" width="398" height="20.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20.5" id="OJR-Y4-SKn"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Fa-3r-xxC" customClass="AMOuijaBoardView" customModule="AMOuijaBoard">
+                                        <rect key="frame" x="0.0" y="36.5" width="398" height="281.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" priority="750" constant="500" id="1X9-tS-Tu1"/>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="500" id="R7g-i6-cmI"/>
+                                            <constraint firstAttribute="width" secondItem="7Fa-3r-xxC" secondAttribute="height" multiplier="1.414:1" id="h2w-m9-of9"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="pQe-uu-6m6"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="tVr-wu-ehY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="YSg-v9-UFd" secondAttribute="bottom" constant="8" id="1sX-tp-AuE"/>
+                            <constraint firstItem="YSg-v9-UFd" firstAttribute="centerY" secondItem="hnS-UW-HW4" secondAttribute="centerY" id="7kX-bl-2pk"/>
+                            <constraint firstItem="YSg-v9-UFd" firstAttribute="top" relation="greaterThanOrEqual" secondItem="tVr-wu-ehY" secondAttribute="top" constant="8" id="A9g-lB-zme"/>
+                            <constraint firstItem="YSg-v9-UFd" firstAttribute="centerX" secondItem="hnS-UW-HW4" secondAttribute="centerX" id="UsZ-NM-Gye"/>
+                            <constraint firstItem="YSg-v9-UFd" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="tVr-wu-ehY" secondAttribute="leading" constant="8" id="Yv4-Cp-nTB"/>
+                            <constraint firstItem="tVr-wu-ehY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="YSg-v9-UFd" secondAttribute="trailing" constant="8" id="uQl-xT-yYO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tVr-wu-ehY"/>
+                    </view>
+                    <connections>
+                        <outlet property="boardView" destination="7Fa-3r-xxC" id="8cO-dg-CHc"/>
+                        <outlet property="label" destination="X5c-u3-w52" id="vXe-Mw-gtK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0R2-E9-ZWh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2412" y="826"/>
         </scene>
         <!--AMMeterView-->
         <scene sceneID="LSF-ay-YJC">

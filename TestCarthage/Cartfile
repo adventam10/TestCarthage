@@ -8,3 +8,4 @@ github "adventam10/AMChart" == 2.3.3
 github "adventam10/AMCalendar" == 2.1.2
 github "adventam10/AMSpeedMeter" == 2.1.0
 github "adventam10/AMMeterView" == 2.1.1
+github "adventam10/AMOuijaBoard" == 1.0.0

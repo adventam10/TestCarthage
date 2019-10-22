@@ -34,6 +34,9 @@
 		0E6822BD226CA87000B72A0A /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6822B3226CA87000B72A0A /* ChartViewController.swift */; };
 		0E6822BE226CA87000B72A0A /* ClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6822B4226CA87000B72A0A /* ClockViewController.swift */; };
 		0E6822BF226CA87000B72A0A /* VennDiagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6822B5226CA87000B72A0A /* VennDiagramViewController.swift */; };
+		0EAD6143235EDB9500398503 /* AMOuijaBoard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAD6142235EDB9500398503 /* AMOuijaBoard.framework */; };
+		0EAD6144235EDB9500398503 /* AMOuijaBoard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAD6142235EDB9500398503 /* AMOuijaBoard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0EAD6147235EDBDE00398503 /* OuijaBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAD6146235EDBDE00398503 /* OuijaBoardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,20 @@
 			remoteInfo = TestCarthage;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0EAD6145235EDB9500398503 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0EAD6144235EDB9500398503 /* AMOuijaBoard.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0E200A81226B579B00CF8001 /* TestCarthage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCarthage.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +104,8 @@
 		0E6822B3226CA87000B72A0A /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
 		0E6822B4226CA87000B72A0A /* ClockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockViewController.swift; sourceTree = "<group>"; };
 		0E6822B5226CA87000B72A0A /* VennDiagramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VennDiagramViewController.swift; sourceTree = "<group>"; };
+		0EAD6142235EDB9500398503 /* AMOuijaBoard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMOuijaBoard.framework; path = Carthage/Build/iOS/AMOuijaBoard.framework; sourceTree = "<group>"; };
+		0EAD6146235EDBDE00398503 /* OuijaBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuijaBoardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +114,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E6822A2226CA7A400B72A0A /* AMMeterView.framework in Frameworks */,
+				0EAD6143235EDB9500398503 /* AMOuijaBoard.framework in Frameworks */,
 				0E6822A3226CA7A400B72A0A /* AMColorPicker.framework in Frameworks */,
 				0E6822A4226CA7A400B72A0A /* AMChart.framework in Frameworks */,
 				0E6822A5226CA7A400B72A0A /* AMBurnAnimation.framework in Frameworks */,
@@ -180,6 +200,7 @@
 		0E200AB2226B582700CF8001 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0EAD6142235EDB9500398503 /* AMOuijaBoard.framework */,
 				0E68229C226CA7A400B72A0A /* AMBurnAnimation.framework */,
 				0E68229D226CA7A400B72A0A /* AMCalendar.framework */,
 				0E68229B226CA7A400B72A0A /* AMChart.framework */,
@@ -207,6 +228,7 @@
 				0E6822B3226CA87000B72A0A /* ChartViewController.swift */,
 				0E6822B4226CA87000B72A0A /* ClockViewController.swift */,
 				0E6822B5226CA87000B72A0A /* VennDiagramViewController.swift */,
+				0EAD6146235EDBDE00398503 /* OuijaBoardViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -222,6 +244,7 @@
 				0E200A7E226B579B00CF8001 /* Frameworks */,
 				0E200A7F226B579B00CF8001 /* Resources */,
 				0E200AB5226B582F00CF8001 /* ShellScript */,
+				0EAD6145235EDB9500398503 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -357,6 +380,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/AMColorPicker.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/AMJpnMap.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/AMVennDiagramView.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AMOuijaBoard.framework",
 			);
 			outputFileListPaths = (
 			);
@@ -376,6 +400,7 @@
 				0E6822B7226CA87000B72A0A /* CalendarViewController.swift in Sources */,
 				0E6822B6226CA87000B72A0A /* NowClockViewController.swift in Sources */,
 				0E6822B9226CA87000B72A0A /* ColorPickerViewController.swift in Sources */,
+				0EAD6147235EDBDE00398503 /* OuijaBoardViewController.swift in Sources */,
 				0E6822B8226CA87000B72A0A /* SpeedMeterViewController.swift in Sources */,
 				0E6822BE226CA87000B72A0A /* ClockViewController.swift in Sources */,
 				0E6822BF226CA87000B72A0A /* VennDiagramViewController.swift in Sources */,
